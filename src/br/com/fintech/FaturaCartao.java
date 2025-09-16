@@ -3,7 +3,7 @@ package br.com.fintech;
 import java.math.BigDecimal;
 
 public class FaturaCartao {
-    private int mes; // 1..12
+    private int mes; 
     private int ano;
     private BigDecimal valorTotal;
     private StatusFatura status;
